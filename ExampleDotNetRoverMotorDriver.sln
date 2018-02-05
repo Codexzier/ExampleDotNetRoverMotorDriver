@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleRoverMotorDriver", "ExampleRoverMotorDriver\ExampleRoverMotorDriver.csproj", "{20CCD2E2-4A3B-4C88-84F8-01D492708588}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleDotNetRoverMotorDriver", "ExampleRoverMotorDriver\ExampleDotNetRoverMotorDriver.csproj", "{20CCD2E2-4A3B-4C88-84F8-01D492708588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
