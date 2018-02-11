@@ -72,20 +72,16 @@ namespace ExampleRoverMotorDriver
 
 
             Debug.Print("PWM Output");
-            this._outputM1 = new PWM(PWMChannels.PWM_PIN_D11, 200d, .1d, false);
-            this._outputM1.Duration = 1;
+            this._outputM1 = new PWM(PWMChannels.PWM_PIN_D11, 1000, 1, PWM.ScaleFactor.Microseconds, false);
             this._outputM1.Start();
 
-            this._outputM2 = new PWM(PWMChannels.PWM_PIN_D3, 200d, .1d, false);
-            this._outputM2.Duration = 1;
+            this._outputM2 = new PWM(PWMChannels.PWM_PIN_D3, 1000, 1, PWM.ScaleFactor.Microseconds, false);
             this._outputM2.Start();
 
-            this._outputM3 = new PWM(PWMChannels.PWM_PIN_D6, 200d, .1d, false);
-            this._outputM3.Duration = 1;
+            this._outputM3 = new PWM(PWMChannels.PWM_PIN_D6, 1000, 1, PWM.ScaleFactor.Microseconds, false);
             this._outputM3.Start();
 
-            this._outputM4 = new PWM(PWMChannels.PWM_PIN_D5, 200d, .1d, false);
-            this._outputM4.Duration = 1;
+            this._outputM4 = new PWM(PWMChannels.PWM_PIN_D5, 1000, 1, PWM.ScaleFactor.Microseconds, false);
             this._outputM4.Start();
         }
 
